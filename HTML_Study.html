@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>나의 첫 HTML태그 공부</title>
+</head>
+<body>
+    <!-- <div style="display:flex;">  -->
+    <!-- 가로로 구성하고 싶을 때 스타일 옵션을 display:Flex로 지정해주면 됨 -->
+    <div style="display:flex;"> 
+        <div>
+            <h1>첫번째블록</h1>
+            <p style="font-size: 20pt;">
+                <strong>
+                안녕하세요 반갑습니다.
+                </strong> <br/>
+                이세형입니다. 오늘 22년 2월 27일..일요일 <br/>
+                현재시간 12시 24분. 내일 출근합니다....
+            </p>
+
+            <input type="text" style="width: 500px; height: 100px; font-size: 15pt;">
+            <div>
+                <button style="width: 250px; height: 100px; font-size: 15pt;">버튼1</button>
+                <button style="width: 250px; height: 100px; font-size: 15pt;">버튼2</button>
+            </div> 
+            <a href="http://www.google.com" style="font-size: 30pt;">구글로 페이지 이동</a>
+            <a href="http://www.naver.com"  style="font-size: 15pt;">네이버로 이동</a>
+        </div>
+        <div>
+            <h1>두번째 블록</h1>
+            <img src="https://mblogthumb-phinf.pstatic.net/20160718_229/ebadatv_1468815841063TIkJ4_PNG/YouTube-logo-full_color.png?type=w800" alt="유튜브로고">
+            <ul style="font-size: 12pt;">
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+            </ul>
+
+            <ol style="font-size: 12pt;">
+                <li>A</li>
+                <li>B</li>
+                <li>C</li>
+                <li>D</li>
+            </ol>
+
+            <table summary = "테이블이래" style="width: 200px; height: 100px;">
+                <caption>세휘커플</caption>
+                <tr>
+                    <th>Seq</th>
+                    <th>이름</th>
+                    <th>나이</th>
+                    <th>성별</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>이세형</td>
+                    <td>29</td>
+                    <td>남자</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>김휘원</td>
+                    <td>29</td>
+                    <td>여자</td>
+                </tr>
+            
+            </table>
+        </div>
+        <div>
+            <h1>세번째 블록</h1>
+            <form>
+                <div><input type="text" style="font-size: 15pt;"> </div>
+                <div><input type="email" style="font-size: 15pt;"> </div>
+                <div><input type="password" style="font-size: 15pt;"> </div>
+                <div><input type="date" style="font-size: 15pt;"> </div>
+                <div><input type="checkbox" style="font-size: 15pt;">체크박스</input></div>
+                <div><select name="coffee">
+                    <option value="1">아메리카노</option>
+                    <option value="2">카페 라떼</option>
+                    <option value="3">카라멜 마끼아또</option>
+                </select></div>
+                <div>
+                    <button type="submit" style="font-size: 30pt;">제출하기</button>
+                    <!-- submit 버튼을 누르면 초기화되면서 이 form 안에 있는 값들이 입력처리가 되는거임
+                    회원가입을 할 때 쓰는 부분이며, 자바스크립트가 처리 하겠지.. html은 단순 구조만 만드는 작업이니까 -->
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+</body>
+</html>
