@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    
+    <title>부트스트랩으로 표 만들어보기</title>
+</head>
+<body>
+    <div class="container w-75 m-5 p-5 shadow-lg  "  >
+    <!-- 큰 창은 그림자가 크게 -->
+        <div><h1>AddressBook::List</h1></div>
+        <hr>
+        <Button type = "button" class="btn bg-info text-white">New Entry</Button>
+
+        <table class="table table-hover table-striped  mt-3 font-weight-bold">
+            <thead class="thead-dark">
+                <tr>
+                    <th>#No</th>
+                    <th>Name</th>
+                    <th>CellNumber</th>
+                    <th>Birth Day</th>
+                    <th>Company</th>
+                    <th>Memo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="text-info">1</td>
+                    <td>Lee Se Hyeong</td>
+                    <td>010-1111-2222</td>
+                    <td>1994-07-02</td>
+                    <td>SanhaIT</td>
+                    <td>뭔 메모여</td>
+                </tr>
+                <tr>
+                    <td class="text-info">2</td>
+                    <td>Lee Se Hyeong</td>
+                    <td>010-1111-2222</td>
+                    <td>1994-07-02</td>
+                    <td>SanhaIT</td>
+                    <td>뭔 메모여</td>
+                </tr>
+                <tr>
+                    <td class="text-info">3</td>
+                    <td>Lee Se Hyeong</td>
+                    <td>010-1111-2222</td>
+                    <td>1994-07-02</td>
+                    <td>SanhaIT</td>
+                    <td>뭔 메모여</td>
+                </tr>
+                <tr>
+                    <td class="text-info">4</td>
+                    <td>Lee Se Hyeong</td>
+                    <td>010-1111-2222</td>
+                    <td>1994-07-02</td>
+                    <td>SanhaIT</td>
+                    <td>뭔 메모여</td>
+                </tr>
+                <tr>
+                    <td class="text-info">5</td>
+                    <td>Lee Se Hyeong</td>
+                    <td>010-1111-2222</td>
+                    <td>1994-07-02</td>
+                    <td>SanhaIT</td>
+                    <td>뭔 메모여</td>
+                </tr>
+                <tr>
+                    <td class="text-info">6</td>
+                    <td>Lee Se Hyeong</td>
+                    <td>010-1111-2222</td>
+                    <td>1994-07-02</td>
+                    <td>SanhaIT</td>
+                    <td>뭔 메모여</td>
+                </tr>
+                <tr>
+                    <td class="text-info">7</td>
+                    <td>Lee Se Hyeong</td>
+                    <td>010-1111-2222</td>
+                    <td>1994-07-02</td>
+                    <td>SanhaIT</td>
+                    <td>뭔 메모여</td>
+                </tr>
+                <tr>
+                    <td class="text-info">8</td>
+                    <td>Lee Se Hyeong</td>
+                    <td>010-1111-2222</td>
+                    <td>1994-07-02</td>
+                    <td>SanhaIT</td>
+                    <td>뭔 메모여</td>
+                </tr>
+                <tr>
+                    <td class="text-info">9</td>
+                    <td>Lee Se Hyeong</td>
+                    <td>010-1111-2222</td>
+                    <td>1994-07-02</td>
+                    <td>SanhaIT</td>
+                    <td>뭔 메모여</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <nav aria-label="그냥 설명란">
+            <ul class="pagination justify-content-center mt-3">
+              <li class="page-item disabled">
+                <span class="page-link"><<</span>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item active" aria-current="page">
+                <span class="page-link">
+                  2
+                  <span class="sr-only">(current)</span>
+                </span>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item"><a class="page-link" href="#">4</a></li>
+              <li class="page-item"><a class="page-link" href="#">5</a></li>
+              <li class="page-item"><a class="page-link" href="#">>></a></li>
+            </ul>
+          </nav>
+    </div>
+
+</body>
+</html>
